@@ -107,13 +107,12 @@ var codeHabitTrainSystem ={
         }
 
         if(routeLocationStop1===routeLocationStop2){
-            return stop1-stop2;
+            return Math.abs(stop1-stop2);
         }else{
-            return stop1+stop2;
+            return Math.abs(stop1)+Math.abs(stop2);
         }
     }
 }
 
 
-console.log(codeHabitTrainSystem.howManyStops('green','red'));
-console.log(codeHabitTrainSystem.howManyStops('albany','atlanta'));
+console.log(codeHabitTrainSystem.howManyStops('green','purple'));
