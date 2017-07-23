@@ -115,4 +115,8 @@ var codeHabitTrainSystem ={
 }
 
 
-console.log(codeHabitTrainSystem.howManyStops('green','purple'));
+console.log(codeHabitTrainSystem.howManyStops('pizza','purple'));
+console.log(codeHabitTrainSystem.howManyStops('atlanta','pizza'));
+console.log(codeHabitTrainSystem.howManyStops('providence','pink'));
+console.log(codeHabitTrainSystem.howManyStops('pizza','apples'));
+console.log(codeHabitTrainSystem.howManyStops('green','africa'));
